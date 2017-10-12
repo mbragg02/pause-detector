@@ -1,36 +1,13 @@
 # pause-detector
 
-FIXME: description
+A program to detect abnormal pauses in pre-recorded audio files.
 
-## Installation
-
-Download from http://example.com/FIXME.
+## Tasks
+1. **Pause detection**: detect and list all the pauses in the audio files.
+2. **Classification**: classify and identify "abnormal" pauses from the extracted samples.
 
 ## Usage
 
-FIXME: explanation
+Please see the instructions for pulling and running the docker image from https://hub.docker.com/r/mbragg02/pause-detector/
 
-    $ java -jar pause-detector-0.1.0-standalone.jar [args]
-
-## Options
-
-FIXME: listing of options this app accepts.
-
-## Examples
-
-...
-
-### Bugs
-
-...
-
-### Any Other Sections
-### That You Think
-### Might be Useful
-
-## License
-
-Copyright © 2017 FIXME
-
-Distributed under the Eclipse Public License either version 1.0 or (at
-your option) any later version.
+Note, the audio files need to be in the following format: `PCM_SIGNED 44100.0 Hz, 16 bit, mono, 2 bytes/frame, little-endian`
